@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>fb30296185ff49c4ad5736f0d6ee31b8</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="cscn8000--artificial-intelligence-algorithms-and-mathematics"
+class="cell markdown">
+<h1>CSCN8000 – Artificial Intelligence Algorithms and Mathematics</h1>
+<h2 id="winter-2024-final-exam-part-b">Winter 2024: Final Exam Part
+B</h2>
+<h3 id="ramandeep-kaur">Ramandeep Kaur</h3>
+<h3 id="8976849">8976849</h3>
+</section>
+<section id="introdcution" class="cell markdown">
+<h2>Introdcution</h2>
+<p>In this exploration, we delve into the Fashion MNIST dataset,
+renowned for its collection of grayscale images depicting various
+clothing items. Unlike its predecessor, the MNIST dataset, our challenge
+here lies in unraveling the mystery behind newly assigned "mystery
+labels" for each clothing item. This unique twist transforms the
+classification task into a captivating mystery-solving endeavor. Through
+the application of machine learning methods such as Bagging and
+Boosting, coupled with techniques like Dimensionality Reduction and
+Clustering, we aim to predict these mystery labels and gain deeper
+insights into the underlying categories they represent.</p>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Load Dataset</strong></p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the datasets</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> pd.read_csv(<span class="vs">r&quot;C:\Users\raman\Algo_AI\Data\final_exam_part_b_dataset\final_exam_part_b_dataset\fashionmnist-datafiles\x_train.csv&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> pd.read_csv(<span class="vs">r&quot;C:\Users\raman\Algo_AI\Data\final_exam_part_b_dataset\final_exam_part_b_dataset\fashionmnist-datafiles\y_train.csv&quot;</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> pd.read_csv(<span class="vs">r&quot;C:\Users\raman\Algo_AI\Data\final_exam_part_b_dataset\final_exam_part_b_dataset\fashionmnist-datafiles\x_test.csv&quot;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> pd.read_csv(<span class="vs">r&quot;C:\Users\raman\Algo_AI\Data\final_exam_part_b_dataset\final_exam_part_b_dataset\fashionmnist-datafiles\y_test.csv&quot;</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first few rows of the training data (features) and corresponding labels</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x_train.head())</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y_train.head())</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a> <span class="co"># Show the dimensions of the datasets</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training features shape:&quot;</span>, x_train.shape)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training labels shape:&quot;</span>, y_train.shape)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test features shape:&quot;</span>, x_test.shape)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test labels shape:&quot;</span>, y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>   0  1  2  3  4  5  6  7   8   9  ...  774  775  776  777  778  779  780  \
+0  0  0  0  0  0  0  0  0   0   0  ...    0    0    0    0    0    0    0   
+1  0  0  0  0  0  1  0  0   0   0  ...  119  114  130   76    0    0    0   
+2  0  0  0  0  0  0  0  0   0  22  ...    0    0    1    0    0    0    0   
+3  0  0  0  0  0  0  0  0  33  96  ...    0    0    0    0    0    0    0   
+4  0  0  0  0  0  0  0  0   0   0  ...    0    0    0    0    0    0    0   
+
+   781  782  783  
+0    0    0    0  
+1    0    0    0  
+2    0    0    0  
+3    0    0    0  
+4    0    0    0  
+
+[5 rows x 784 columns]
+   0
+0  4
+1  0
+2  0
+3  4
+4  0
+Training features shape: (60000, 784)
+Training labels shape: (60000, 1)
+Test features shape: (10000, 784)
+Test labels shape: (10000, 1)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Check for missing values in the datasets</strong></p>
+</div>
+<div class="cell code" data-execution_count="88">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Total missing values in each dataset</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total missing values in training features:&quot;</span>, x_train.isnull().<span class="bu">sum</span>().<span class="bu">sum</span>())</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total missing values in training labels:&quot;</span>, y_train.isnull().<span class="bu">sum</span>().<span class="bu">sum</span>())</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total missing values in test features:&quot;</span>, x_test.isnull().<span class="bu">sum</span>().<span class="bu">sum</span>())</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total missing values in test labels:&quot;</span>, y_test.isnull().<span class="bu">sum</span>().<span class="bu">sum</span>())</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Total missing values in training features: 0
+Total missing values in training labels: 0
+Total missing values in test features: 0
+Total missing values in test labels: 0
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Label Distribution: Assess the distribution of categories (0-4) in
+the labels to determine dataset balance. Analyze for any potential
+imbalances that may require addressing.</p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the occurrences of each category in the training labels</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>y_train_counts <span class="op">=</span> y_train.value_counts()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y_train_counts) </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0
+4    18000
+0    12000
+2    12000
+3    12000
+1     6000
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Visualizing an Example Image</strong></p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import  library</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the first row to a numpy array and reshape it to a 28x28 matrix</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>example_image <span class="op">=</span> x_train.iloc[<span class="dv">0</span>].values.reshape(<span class="dv">28</span>, <span class="dv">28</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the image</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.imshow(example_image, cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;(Label: </span><span class="sc">{}</span><span class="st">)&quot;</span>.<span class="bu">format</span>(y_train.iloc[<span class="dv">0</span>, <span class="dv">0</span>]))  <span class="co"># Add label name with appropriate index</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/59410d10f57a55b24e7edd1e355e2901b0d023d5.png" /></p>
+</div>
+</div>
+<section id="training-the-baseline-model-with-cross-validation"
+class="cell markdown">
+<h2>Training the Baseline Model with Cross-Validation</h2>
+<p><strong>Decision Tree Classifier</strong></p>
+<p>For our baseline model, we opt for a Decision Tree classifier.
+Decision Trees are advantageous when controlled for complexity,
+particularly with a limited depth. Here's why a shallow decision tree
+(e.g., maximum depth of 3-5) is suitable:</p>
+<p><strong>Ease of Interpretation:</strong> Decision Trees are
+inherently interpretable, allowing for straightforward visualization and
+understanding of the model's decision-making process.</p>
+<p><strong>Overfitting Control:</strong> By constraining the tree's
+depth, we mitigate the risk of overfitting by preventing the model from
+creating excessively complex decision boundaries.</p>
+<p><strong>Computational Efficiency:</strong> Shallow Decision Trees are
+computationally efficient, which is beneficial for scalability and
+compatibility with ensemble methods, such as Bagging and Boosting, which
+often require multiple instances of base estimators.</p>
+</section>
+<div class="cell code" data-execution_count="89">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize the Decision Tree Classifier with a maximum depth of 5</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>dt_classifier <span class="op">=</span> DecisionTreeClassifier(max_depth<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform 5-fold cross-validation</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> cross_val_score(dt_classifier, x_train, y_train, cv<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the mean accuracy and the 95% confidence interval of the score estimate</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean Accuracy: </span><span class="sc">{:.2f}</span><span class="st"> (+/- </span><span class="sc">{:.2f}</span><span class="st">)&quot;</span>.<span class="bu">format</span>(scores.mean(), scores.std() <span class="op">*</span> <span class="dv">2</span>))</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean Accuracy: 0.76 (+/- 0.01)
+</code></pre>
+</div>
+</div>
+<section id="applying-the-bagging-method" class="cell markdown">
+<h2>Applying the Bagging Method</h2>
+<p>Bagging, short for Bootstrap Aggregating, serves to mitigate variance
+and prevent overfitting by training the same model on various subsets of
+the dataset and subsequently averaging the predictions.</p>
+</section>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing necessary modules</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> BaggingClassifier</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a bagging ensemble of decision trees</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>bagging_model <span class="op">=</span> BaggingClassifier(base_estimator<span class="op">=</span>dt_classifier, n_estimators<span class="op">=</span><span class="dv">20</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the bagging ensemble using cross-validation</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>bagging_scores <span class="op">=</span> cross_val_score(bagging_model, x_train, y_train, cv<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Printing the results</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Bagging Accuracy: </span><span class="sc">{:.2f}</span><span class="st"> (+/- </span><span class="sc">{:.2f}</span><span class="st">)&quot;</span>.<span class="bu">format</span>(bagging_scores.mean(), bagging_scores.std() <span class="op">*</span> <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_bagging.py:802: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_bagging.py:802: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_bagging.py:802: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_bagging.py:802: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_bagging.py:802: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Bagging Accuracy: 0.78 (+/- 0.01)
+</code></pre>
+</div>
+</div>
+<section id="applying-the-boosting-method" class="cell markdown">
+<h2>Applying the Boosting Method</h2>
+<p>Boosting aims to reduce bias and construct a robust learner by
+iteratively improving upon weak learners. It sequentially applies a weak
+classification algorithm to repeatedly modified versions of the data,
+with a focus on correctly predicting the misclassified data points from
+previous rounds.</p>
+</section>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing necessary libraries</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> AdaBoostClassifier</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a boosting model using AdaBoost</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>boosting_model <span class="op">=</span> AdaBoostClassifier(base_estimator<span class="op">=</span>dt_classifier, n_estimators<span class="op">=</span><span class="dv">20</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the boosting model using cross-validation</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>boosting_scores <span class="op">=</span> cross_val_score(boosting_model, x_train, y_train, cv<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the results</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Boosting Accuracy: </span><span class="sc">{:.2f}</span><span class="st"> (+/- </span><span class="sc">{:.2f}</span><span class="st">)&quot;</span>.<span class="bu">format</span>(boosting_scores.mean(), boosting_scores.std() <span class="op">*</span> <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Boosting Accuracy: 0.70 (+/- 0.08)
+</code></pre>
+</div>
+</div>
+<section id="model-validation-and-performance-evaluation"
+class="cell markdown">
+<h2>Model Validation and Performance Evaluation</h2>
+<p>Following the training of the baseline, bagging, and boosting models,
+the subsequent crucial step involves assessing their performance on the
+test set. This pivotal evaluation enables a comprehensive comparison of
+their efficacy, aiding in the determination of the superior ensemble
+method and the underlying factors contributing to its performance.</p>
+</section>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit models on the full training set</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>dt_classifier.fit(x_train, y_train.values.ravel())  </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>bagging_model.fit(x_train, y_train.values.ravel())</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>boosting_model.fit(x_train, y_train.values.ravel())</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict on test set</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>dt_predictions <span class="op">=</span> dt_classifier.predict(x_test)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>bagging_predictions <span class="op">=</span> bagging_model.predict(x_test)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>boosting_predictions <span class="op">=</span> boosting_model.predict(x_test)</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate accuracy on test set</span></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>dt_accuracy <span class="op">=</span> accuracy_score(y_test, dt_predictions)</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>bagging_accuracy <span class="op">=</span> accuracy_score(y_test, bagging_predictions)</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>boosting_accuracy <span class="op">=</span> accuracy_score(y_test, boosting_predictions)</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Presenting the results</span></span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Decision Tree Accuracy on Test Set: </span><span class="sc">{</span>dt_accuracy<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Bagging Accuracy on Test Set: </span><span class="sc">{</span>bagging_accuracy<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Boosting Accuracy on Test Set: </span><span class="sc">{</span>boosting_accuracy<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\ensemble\_base.py:156: FutureWarning: `base_estimator` was renamed to `estimator` in version 1.2 and will be removed in 1.4.
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Decision Tree Accuracy on Test Set: 0.75
+Bagging Accuracy on Test Set: 0.77
+Boosting Accuracy on Test Set: 0.66
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The warning messages you received indicate a future deprecation in
+the sklearn library. Specifically, the base_estimator parameter in the
+sklearn.ensemble module has been renamed to estimator starting from
+version 1.2 and will be removed entirely in version 1.4.</p>
+<p><strong>Regarding the accuracy results on the test set:</strong></p>
+<p>Decision Tree Classifier achieved an accuracy of 75%. Bagging
+Classifier achieved a slightly higher accuracy of 77%. Boosting
+Classifier, however, achieved a lower accuracy of 66%.</p>
+<p><strong>Insights:</strong></p>
+<p>Bagging outperformed both the Decision Tree and Boosting classifiers
+in terms of accuracy on the test set. This suggests that aggregating
+predictions from multiple models (in this case, multiple decision trees)
+through bagging can lead to improved performance compared to a single
+decision tree.</p>
+<p>The Boosting Classifier performed the poorest among the three models
+in terms of accuracy. This could be due to overfitting or the inability
+of boosting to effectively handle noisy data or outliers.</p>
+<p>It's important to note that accuracy alone may not provide a complete
+picture of model performance, and other evaluation metrics such as
+precision, recall, and F1-score should also be considered, especially if
+the dataset is imbalanced or there are specific requirements for the
+application.</p>
+</div>
+<section id="part-b-guessing-the-mystery-label" class="cell markdown">
+<h2>Part B: Guessing the Mystery Label</h2>
+<p><strong>Training a Multi-Layer Perceptron (MLP) Neural
+Network</strong></p>
+<p>To guess the mystery label, we'll train a simple neural network (MLP)
+with 3 hidden layers having the following number of neurons: [256, 128,
+64]. Before training the model, we'll perform data normalization to
+ensure that the input features are on a similar scale.</p>
+<p><strong>Data Normalization</strong></p>
+<p>Normalization is a crucial preprocessing step that scales the input
+features to a similar range, which helps improve the convergence and
+performance of the neural network.</p>
+<p>Let's proceed with implementing data normalization and training the
+MLP model.</p>
+</section>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a scaler using StandardScaler</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit on training data only</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>scaler.fit(x_train)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Transform both training and test data</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>x_train_scaled <span class="op">=</span> scaler.transform(x_train)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>x_test_scaled <span class="op">=</span> scaler.transform(x_test)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>### Build the MLP Model Using TensorFlow and Keras to build the
+neural network:</p>
+</div>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the model</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential([</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">256</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(x_train_scaled.shape[<span class="dv">1</span>],)),</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">128</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">64</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">5</span>, activation<span class="op">=</span><span class="st">&#39;softmax&#39;</span>)  <span class="co"># Assuming there are 5 classes as per the labels description</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;sparse_categorical_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Train the Model</strong> Train the model using the normalized
+training data:</p>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(x_train_scaled, y_train, epochs<span class="op">=</span><span class="dv">10</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>model.save(<span class="st">&#39;path_to_my_model.h5&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/10
+1500/1500 [==============================] - 5s 3ms/step - loss: 0.3519 - accuracy: 0.8704 - val_loss: 0.3143 - val_accuracy: 0.8873
+Epoch 2/10
+1500/1500 [==============================] - 4s 3ms/step - loss: 0.2569 - accuracy: 0.9051 - val_loss: 0.2703 - val_accuracy: 0.9051
+Epoch 3/10
+1500/1500 [==============================] - 4s 3ms/step - loss: 0.2248 - accuracy: 0.9166 - val_loss: 0.2699 - val_accuracy: 0.9091
+Epoch 4/10
+1500/1500 [==============================] - 5s 3ms/step - loss: 0.2045 - accuracy: 0.9251 - val_loss: 0.2663 - val_accuracy: 0.9087
+Epoch 5/10
+1500/1500 [==============================] - 6s 4ms/step - loss: 0.1866 - accuracy: 0.9323 - val_loss: 0.2483 - val_accuracy: 0.9143
+Epoch 6/10
+1500/1500 [==============================] - 5s 3ms/step - loss: 0.1718 - accuracy: 0.9371 - val_loss: 0.2521 - val_accuracy: 0.9172
+Epoch 7/10
+1500/1500 [==============================] - 5s 4ms/step - loss: 0.1603 - accuracy: 0.9416 - val_loss: 0.2705 - val_accuracy: 0.9147
+Epoch 8/10
+1500/1500 [==============================] - 5s 3ms/step - loss: 0.1497 - accuracy: 0.9450 - val_loss: 0.2872 - val_accuracy: 0.9069
+Epoch 9/10
+1500/1500 [==============================] - 5s 4ms/step - loss: 0.1405 - accuracy: 0.9478 - val_loss: 0.2926 - val_accuracy: 0.9097
+Epoch 10/10
+1500/1500 [==============================] - 5s 3ms/step - loss: 0.1305 - accuracy: 0.9519 - val_loss: 0.2696 - val_accuracy: 0.9172
+</code></pre>
+</div>
+</div>
+<section id="model-evaluation" class="cell markdown">
+<h2>Model Evaluation</h2>
+<p>Conclusively, assess the model's performance on the test dataset:</p>
+</section>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model on the test set</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>test_loss, test_accuracy <span class="op">=</span> model.evaluate(x_test_scaled, y_test, verbose<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the test loss and accuracy</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Test Loss: </span><span class="sc">{</span>test_loss<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Test Accuracy: </span><span class="sc">{</span>test_accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>313/313 [==============================] - 1s 2ms/step - loss: 0.2900 - accuracy: 0.9160
+Test Loss: 0.2900
+Test Accuracy: 0.9160
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="52">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the true labels from y_test</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>y_test_array <span class="op">=</span> y_test.iloc[:, <span class="dv">0</span>].values</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>The MLP model emerges as the frontrunner among the four
+methodologies, boasting a remarkable test set accuracy of 0.9113. This
+underscores the prowess of MLPs in delving deep into intricate data
+patterns, surpassing the capabilities of traditional machine learning
+models like Decision Trees and their ensemble variations.</p>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate predictions for the test set</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(x_test_scaled)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create subplots for displaying images and their predictions</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">4</span>, <span class="dv">8</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">10</span>))</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate through each subplot and populate it with an image and its prediction</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, ax <span class="kw">in</span> <span class="bu">enumerate</span>(axes.flat):</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i <span class="op">&lt;</span> <span class="bu">len</span>(x_test_scaled):  <span class="co"># Ensure not to exceed available images</span></span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Display the image</span></span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>        ax.imshow(x_test_scaled[i].reshape(<span class="dv">28</span>, <span class="dv">28</span>), cmap<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Obtain the predicted and actual labels</span></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>        predicted_label <span class="op">=</span> np.argmax(predictions[i])</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>        actual_label <span class="op">=</span> y_test_array[i]</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Set subplot title with predicted and actual labels</span></span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>        ax.<span class="bu">set</span>(title<span class="op">=</span><span class="ss">f&quot;Predicted: </span><span class="sc">{</span>predicted_label<span class="sc">}</span><span class="ss"> - Actual: </span><span class="sc">{</span>actual_label<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>        ax.axis(<span class="st">&#39;off&#39;</span>)  <span class="co"># Hide axes</span></span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>        ax.axis(<span class="st">&#39;off&#39;</span>)  <span class="co"># Hide unused subplots</span></span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the plot</span></span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>313/313 [==============================] - 0s 1ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/cc6677274f245c7337a5605bb01fdbf1601eb65b.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Let's proceed with loading our Stacked Autoencoder (SAE)
+model.</strong></p>
+</div>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> load_model</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the model</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>loaded_model <span class="op">=</span> load_model(<span class="st">&#39;path_to_my_model.h5&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Extracting Embeddings with Helper Function</strong></p>
+</div>
+<div class="cell markdown">
+<p>Before calling the helper function to extract embeddings, we need to
+address an issue: TensorFlow/Keras neural network models do not have
+attributes like coefs_ and intercepts_ as found in sklearn models. These
+attributes are commonly used to access a model's weights and biases. To
+overcome this, I've provided code to extract weights and biases in a
+manner resembling sklearn's structure. This ensures compatibility and
+maintains a consistent workflow across different machine learning
+frameworks.</p>
+</div>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> layer <span class="kw">in</span> loaded_model.layers:</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    weights, biases <span class="op">=</span> layer.get_weights()</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Weights:&quot;</span>, weights)  <span class="co"># Numpy array of weights</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Biases:&quot;</span>, biases)    <span class="co"># Numpy array of biases</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Weights: [[ 0.03873049  0.06399816  0.08231232 ...  0.01420645  0.11983521
+   0.03315115]
+ [ 0.02255921 -0.02324415  0.05233524 ...  0.04287601 -0.09533344
+   0.00915086]
+ [-0.13097602  0.16381817 -0.06482447 ...  0.05054663 -0.02014409
+   0.03456116]
+ ...
+ [-0.03380271  0.1084064   0.02908352 ... -0.09626168 -0.00655415
+   0.10469592]
+ [ 0.07866572 -0.06099093 -0.2016731  ...  0.03030228  0.09873074
+   0.11075224]
+ [ 0.04676165  0.02420475 -0.04309844 ... -0.04759157 -0.06900688
+   0.02833917]]
+Biases: [-0.31827402 -0.21543306 -0.2710375  -0.2577784  -0.37673607 -0.08513691
+ -0.18476275 -0.19048136 -0.20249987 -0.06942939 -0.20485833 -0.2768798
+ -0.32609665 -0.41008785 -0.38318536 -0.14209706 -0.38145944 -0.20193385
+ -0.33934554 -0.13678972 -0.10757975 -0.2998003  -0.14384979 -0.10819261
+ -0.29404694 -0.11735385 -0.22397554 -0.29562885 -0.4672453  -0.35964814
+ -0.18765745 -0.14786005 -0.1969361  -0.320427   -0.27919868 -0.0882699
+ -0.27622095 -0.39994434 -0.24303776 -0.25184035 -0.32208574 -0.40532187
+ -0.3324752  -0.40514997 -0.12105279 -0.21800862 -0.17762895 -0.26684472
+ -0.18042088 -0.34640804 -0.1685634  -0.41436255 -0.2428856  -0.3512821
+ -0.2406479  -0.16842009 -0.16220102 -0.24926166 -0.15562336 -0.06283425
+ -0.11254118 -0.19157232 -0.24533649 -0.17508507 -0.44759187 -0.24943858
+ -0.27364975 -0.23505451 -0.2557856  -0.26148245 -0.17396712 -0.2251445
+ -0.24724989 -0.3489357  -0.19718337 -0.23255004 -0.15768987 -0.12844524
+ -0.19881406 -0.16660643 -0.32458025 -0.2784112  -0.10511531 -0.12912685
+ -0.289633   -0.26514736 -0.20406057 -0.32903293  0.00504128 -0.3468043
+ -0.15861203 -0.18746738 -0.38865116 -0.05896215 -0.19586915 -0.19027263
+ -0.1391151  -0.34258723 -0.13966596 -0.24792466 -0.05361371 -0.34113148
+ -0.4073374  -0.11181908 -0.18000582 -0.24953301 -0.3379317  -0.32155567
+ -0.23049022 -0.24170615 -0.32356712 -0.29159006 -0.230256   -0.15608959
+ -0.27814147 -0.23702914 -0.20552385 -0.25641653 -0.24179997 -0.30371833
+ -0.20928329 -0.10200915 -0.3508939  -0.28899992 -0.23580007 -0.11747016
+ -0.20409991 -0.1684665  -0.2862681  -0.16058834 -0.40510133 -0.27894196
+ -0.2444466  -0.30308908 -0.17108612 -0.1839552  -0.34612498 -0.360173
+ -0.22117595 -0.2906454  -0.27291992 -0.15555887 -0.21135956 -0.2936383
+ -0.22542015 -0.29672813 -0.13893989 -0.3081831  -0.32800162 -0.25521868
+ -0.31770474 -0.19644573 -0.3396428  -0.11644707 -0.12449916 -0.24454263
+ -0.29571033 -0.288025   -0.2781974  -0.25738075 -0.38582408 -0.18566126
+ -0.39802113 -0.2654387  -0.29615217 -0.36690867 -0.19292589 -0.26841277
+ -0.22910233 -0.4246109  -0.21835877 -0.32128873 -0.27104297 -0.3732937
+ -0.17132618 -0.3269147  -0.3683498  -0.17267197 -0.20481387 -0.17706908
+ -0.43123305 -0.12479927 -0.18686488 -0.2914397  -0.2271089  -0.25702986
+ -0.24578007 -0.3430409  -0.30627957 -0.3278705  -0.36433858 -0.26703554
+ -0.17757587 -0.12912059 -0.42398044 -0.2556406  -0.09656154 -0.31849128
+ -0.37642673 -0.11673988 -0.3018129  -0.35265404 -0.15287358 -0.23443215
+ -0.19285792 -0.3408988  -0.13745052 -0.08149359 -0.14098239 -0.15187605
+ -0.12604967 -0.12458126 -0.3359938  -0.38037992 -0.15673277 -0.0890679
+ -0.30801395 -0.2376243  -0.23913218 -0.29323983 -0.3156249  -0.19969861
+ -0.1727643  -0.27892208 -0.10084829 -0.33409777 -0.17435019 -0.37277782
+ -0.27639067 -0.1545059  -0.24856639 -0.17029683 -0.31739601 -0.27038842
+ -0.42150924 -0.5025011  -0.45874134 -0.25035563 -0.30224946 -0.356079
+ -0.2654209  -0.32342437 -0.27689847 -0.24621372 -0.34225696 -0.29395193
+ -0.31276232 -0.1533421  -0.12770675 -0.3170284  -0.15503253 -0.2736083
+ -0.38492903 -0.06846281 -0.08649777 -0.3863213 ]
+Weights: [[-0.16819082  0.04119049  0.07295035 ... -0.1865654  -0.116694
+  -0.11299399]
+ [ 0.199096    0.02228241 -0.1129673  ... -0.03621923  0.04377364
+   0.13530087]
+ [ 0.12335354 -0.03767649 -0.14691605 ... -0.17746294  0.09828534
+  -0.0029799 ]
+ ...
+ [-0.2768629  -0.13884965 -0.15106617 ...  0.1932725   0.0087933
+   0.0481501 ]
+ [ 0.03277603 -0.0475256  -0.01937757 ...  0.10482003 -0.12270094
+  -0.09083842]
+ [ 0.03806805  0.08668534 -0.08411193 ... -0.04294713  0.05568535
+   0.12667479]]
+Biases: [-0.0587431  -0.08393721 -0.04275756 -0.02703987 -0.04777484  0.03399515
+  0.0498194   0.03082872 -0.00014054 -0.06282553 -0.06559993 -0.04183282
+  0.04774569  0.01444986 -0.04205565 -0.08344065 -0.00216159  0.1016567
+  0.00423812 -0.08362956  0.11357794  0.0603554  -0.06612287 -0.05825047
+ -0.04180612 -0.12215798 -0.066967   -0.05017633 -0.06134079 -0.11021328
+ -0.07642493  0.01788079 -0.04417609 -0.03963458 -0.08929995 -0.04094252
+ -0.02566576 -0.07703499 -0.10727796 -0.07200818  0.02893449 -0.04444804
+  0.0474965  -0.10673293  0.13335773 -0.0842013   0.01909554 -0.01267943
+  0.00453685  0.09559741 -0.0056272  -0.07696526  0.04041145 -0.03150142
+  0.02450166  0.04678935 -0.08815607  0.0359776  -0.02044835  0.00810763
+  0.08714803 -0.06673151 -0.02266426 -0.07238138 -0.02584944 -0.04577696
+ -0.02450401 -0.10771395 -0.0398071  -0.05077393 -0.02818222 -0.02577357
+  0.02272439  0.0255073  -0.08539017  0.04246015 -0.06089804 -0.01014349
+  0.03731448 -0.05147281 -0.06384399 -0.03791653 -0.00254551  0.11517324
+ -0.00616745  0.05933328 -0.02299547 -0.06865688 -0.12601815 -0.04378513
+ -0.11847332  0.02605385 -0.00845638  0.02782696 -0.02341743 -0.05599365
+ -0.08495382  0.02683885  0.01552978 -0.03185791 -0.00789165 -0.02935866
+ -0.00929671 -0.02006022 -0.0270744  -0.03620058  0.01331597 -0.04949478
+  0.06590373 -0.05049442 -0.08640902 -0.01091071 -0.0216773  -0.06364705
+  0.10232798 -0.0353105  -0.03700329 -0.02674065 -0.00664524 -0.02540028
+  0.01128237  0.07812466 -0.02169822 -0.09485652 -0.01993391  0.00558403
+ -0.05901871  0.08299169]
+Weights: [[-0.082022    0.1394561   0.00423042 ...  0.03518722  0.05493631
+   0.02739848]
+ [-0.04245921  0.18714857 -0.0686226  ...  0.00272546 -0.11928438
+   0.24015847]
+ [ 0.05350711  0.14503689  0.22997354 ... -0.03401284 -0.04387979
+  -0.11109026]
+ ...
+ [ 0.15878187  0.07020368 -0.27528718 ... -0.11118191 -0.05006462
+  -0.01739654]
+ [ 0.09451995 -0.02211819  0.12038598 ...  0.10049528  0.05108359
+  -0.08922502]
+ [ 0.04340312 -0.12648925  0.16009429 ...  0.11845531 -0.26854363
+   0.21569136]]
+Biases: [-0.06412574 -0.19255276 -0.05093008 -0.09778807  0.05246241 -0.13704403
+ -0.06136987 -0.13209264 -0.21376784 -0.04327576 -0.08292653 -0.00194332
+ -0.02868644 -0.09581404 -0.10820251  0.07971974  0.03735534  0.07552323
+ -0.13826896 -0.08707747 -0.23434275  0.07774723  0.0130376  -0.08377468
+ -0.15571125  0.01287839 -0.02951772 -0.13184927 -0.04686363  0.01427689
+ -0.09484767  0.09465806  0.05078951 -0.10567648 -0.01891834 -0.18248762
+ -0.12753837  0.10777427 -0.01690196 -0.07936036  0.04608537  0.01827811
+  0.12034498 -0.10366854  0.01204872 -0.11451343 -0.12836331 -0.06954754
+  0.08465718 -0.13798709 -0.00736042  0.13055265 -0.09537276 -0.16347252
+ -0.05835227 -0.07966718 -0.01298028 -0.0533988  -0.08992499 -0.18863364
+ -0.16465397  0.02503761 -0.06798077 -0.08943035]
+Weights: [[-1.62811875e-01  2.18599677e-01  1.93282813e-01 -2.53980786e-01
+   2.13880241e-01]
+ [-1.62091210e-01  2.03360379e-01 -1.76997095e-01  1.66680336e-01
+  -2.09468663e-01]
+ [-6.02912083e-02  8.02690238e-02  9.21395123e-02 -7.39185587e-02
+   1.13404118e-01]
+ [-4.10205051e-02  1.76661730e-01  2.26418018e-01 -1.04192056e-01
+   1.11427300e-01]
+ [-6.74442947e-02 -2.84575601e-03  2.01692477e-01  1.61456153e-01
+   1.55559689e-01]
+ [-5.58977909e-02  1.57526404e-01  1.11447185e-01  4.31650318e-02
+   4.20977585e-02]
+ [-2.97771037e-01 -2.35810682e-01 -1.36874527e-01 -2.94490963e-01
+  -2.86509246e-01]
+ [ 3.70875485e-02 -2.07569927e-01 -1.67425811e-01  2.13092063e-02
+   3.76093611e-02]
+ [-1.14710696e-01 -1.57091349e-01 -2.71773815e-01 -2.96355903e-01
+  -1.16947949e-01]
+ [ 1.40544057e-01 -7.21321404e-02 -1.13963969e-01 -6.38054824e-03
+   9.27797556e-02]
+ [ 7.56404772e-02 -1.12232171e-01 -9.59566459e-02 -1.88290954e-01
+   4.77200821e-02]
+ [-1.78445995e-01 -1.84476838e-01  3.01277358e-02  1.68635905e-01
+  -1.66101679e-02]
+ [ 5.77194728e-02 -1.46123275e-01 -8.02764595e-02 -1.31090716e-01
+  -7.32898712e-02]
+ [-7.90704116e-02  7.93840513e-02  1.57389760e-01 -1.17794983e-01
+  -8.48304927e-02]
+ [-2.12859273e-01  1.90428719e-01 -2.04134002e-01  1.87638447e-01
+   1.97684452e-01]
+ [-1.23443998e-01  1.87840432e-01 -7.86628500e-02  1.84283599e-01
+   5.52024953e-02]
+ [ 6.64417595e-02 -5.25500894e-01  1.79149121e-01 -1.48569599e-01
+   1.32185340e-01]
+ [ 7.48202577e-02 -3.44662726e-01 -1.09521225e-01  1.39573067e-01
+   1.74755886e-01]
+ [-1.75624400e-01  8.99962932e-02 -2.70616621e-01 -7.51127601e-02
+  -5.45916110e-02]
+ [ 1.13850616e-01  6.96558133e-02 -8.99770707e-02  1.01927899e-01
+   2.97099520e-02]
+ [-1.23114377e-01 -5.59374578e-02 -1.92792907e-01 -2.06374470e-02
+  -1.59813479e-01]
+ [ 1.73211634e-01 -9.60124135e-02  1.38197184e-01 -2.91454941e-01
+   3.15092057e-02]
+ [-8.17039534e-02 -4.43775021e-02 -2.48075053e-01  4.02449779e-02
+  -1.66947857e-01]
+ [-2.60922257e-02  6.85697645e-02 -4.93670404e-02  2.98297442e-02
+   1.15667172e-01]
+ [-4.20963541e-02 -2.24682540e-01  8.27230811e-02  1.73017398e-01
+   7.96754733e-02]
+ [ 3.99333164e-02 -3.67268100e-02  1.33574739e-01 -1.74083889e-01
+   1.83156710e-02]
+ [ 2.21305519e-01  7.78899863e-02  2.10659146e-01  9.39797461e-02
+  -1.24342524e-01]
+ [-1.40772820e-01  7.64363110e-02  1.01268105e-01 -1.87824368e-01
+  -6.09823577e-02]
+ [ 5.11356480e-02 -3.03083241e-01 -1.66034371e-01 -7.77012110e-02
+  -1.59941196e-01]
+ [ 9.50664803e-02 -3.01289231e-01 -3.19100581e-02  8.91820341e-02
+  -4.16086055e-02]
+ [ 8.51310268e-02  9.56195369e-02  1.55027196e-01 -1.67476550e-01
+   1.78338543e-01]
+ [-1.11484960e-01  1.38205081e-01  6.88966438e-02  1.46761388e-01
+   6.69708028e-02]
+ [ 9.38925147e-03 -3.21112543e-01  3.00960764e-02  1.72097489e-01
+  -2.04155251e-01]
+ [-1.29917130e-01 -4.33031209e-02 -2.54277736e-01  7.02933446e-02
+  -6.66817129e-02]
+ [ 3.21064919e-01 -7.78032914e-02  1.31138831e-01 -1.80988848e-01
+   2.07261428e-01]
+ [-1.39843076e-01 -3.86889689e-02  5.41903153e-02 -1.52561918e-01
+  -1.42781436e-01]
+ [ 1.39318213e-01  2.32373431e-01  2.18741298e-01  1.77615941e-01
+   9.71983299e-02]
+ [ 7.41239861e-02 -2.52760291e-01  9.68593545e-03 -8.55687633e-02
+   1.62383586e-01]
+ [-5.42539246e-02 -1.32628143e-01  8.33461210e-02  1.82488620e-01
+  -1.58067793e-01]
+ [ 2.92120744e-02 -4.04582694e-02  6.77764341e-02 -2.13627634e-03
+   7.64535442e-02]
+ [ 4.76158224e-02 -1.64067633e-02  5.28024547e-02  1.80862918e-01
+   1.79144457e-01]
+ [-3.83680582e-01  1.34427965e-01 -4.17916387e-01  2.62631446e-01
+   2.62089998e-01]
+ [-1.45430584e-02 -1.66523546e-01  1.99753866e-02  1.39979765e-01
+   5.88392764e-02]
+ [-8.26171115e-02  1.11754648e-02 -1.40378386e-01 -7.00497329e-02
+  -1.14471234e-01]
+ [-7.78126791e-02  2.60582268e-01 -1.69425130e-01  2.22177893e-01
+   3.97407673e-02]
+ [ 5.40343486e-02  2.87657827e-01  1.90219898e-02 -2.22494692e-01
+   1.68814838e-01]
+ [-1.34721071e-01  2.68079221e-01 -2.09660292e-01  2.63577998e-02
+  -3.04671247e-02]
+ [ 1.11412928e-01  1.53848633e-01 -4.80372719e-02 -1.91765241e-02
+   1.15722753e-01]
+ [ 9.19027254e-02 -4.66980964e-01  1.29115611e-01 -3.52024734e-01
+   1.36129528e-01]
+ [-4.52879667e-02  2.20520392e-01 -1.90922245e-01  5.47440676e-03
+  -7.07371756e-02]
+ [ 8.05690810e-02  1.50814578e-01  2.46537387e-01 -1.12509087e-01
+   2.05594912e-01]
+ [ 1.58174738e-01 -1.53350994e-01 -1.17035493e-01  1.43539101e-01
+   6.59548491e-02]
+ [-6.90934435e-02  3.97872217e-02  1.14852756e-01 -1.45778179e-01
+  -8.46750736e-02]
+ [-2.27231726e-01 -1.05207667e-01 -1.69212505e-01 -2.43145123e-01
+  -2.58079916e-01]
+ [-1.45955458e-01  4.12464254e-02 -2.20011026e-01 -1.17870174e-01
+   1.45760804e-01]
+ [ 9.84237120e-02  1.25821292e-01 -1.67086333e-01 -1.53556481e-01
+  -4.31504995e-02]
+ [-9.45095643e-02 -2.69165635e-01 -3.23146880e-02  1.95714921e-01
+   3.10954529e-05]
+ [ 1.32105157e-01 -6.15684837e-02 -2.34481739e-03  1.23780340e-01
+   4.39299978e-02]
+ [ 7.28791207e-02  1.91932499e-01 -1.01742610e-01  2.17687398e-01
+  -5.99070936e-02]
+ [ 1.49271905e-01  1.85773581e-01 -3.16943862e-02  1.22972857e-02
+   1.59546301e-01]
+ [-3.41894329e-02 -9.83355194e-02  1.40092507e-01 -1.87572107e-01
+   8.23529735e-02]
+ [ 1.32201076e-01 -8.34413618e-02 -1.25426993e-01 -1.31602913e-01
+   1.38926998e-01]
+ [ 1.40433550e-01 -2.62645483e-02 -6.67421445e-02  1.05238147e-01
+   6.45856038e-02]
+ [ 1.84112899e-02  3.57251056e-02  1.33477777e-01 -5.58230951e-02
+  -1.39299437e-01]]
+Biases: [-0.08430816 -0.16547385  0.03234258  0.14751135  0.04030799]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="57">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_coefs(model):</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Extracts the weights (coefs) and biases (intercepts) from each layer of the model.</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Parameters:</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co">    - model: The neural network model.</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co">    </span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="co">    - List of weight matrices (coefs) and list of bias vectors (intercepts).</span></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    coefs <span class="op">=</span> []</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>    intercepts <span class="op">=</span> []</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> layer <span class="kw">in</span> model.layers:</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>        weights <span class="op">=</span> layer.get_weights()</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> weights:  <span class="co"># Check if layer has weights</span></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>            coefs.append(weights[<span class="dv">0</span>])  <span class="co"># append weights matrix</span></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">len</span>(weights) <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>                intercepts.append(weights[<span class="dv">1</span>])  <span class="co"># append biases if present</span></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a>                intercepts.append(<span class="va">None</span>)  <span class="co"># No biases for this layer</span></span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> coefs, intercepts</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Example usage:</span></span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a>coefs, intercepts <span class="op">=</span> get_coefs(model)</span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Coefs:&quot;</span>, coefs)</span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Intercepts:&quot;</span>, intercepts)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Coefs: [array([[ -5.651305  , -17.83278   ,  -5.6981206 , ...,  -9.540836  ,
+         -5.636763  , -17.017275  ],
+       [ -1.0799205 ,  -9.662763  ,  -1.1478984 , ...,  -1.5720459 ,
+         -0.93835795,  -8.778494  ],
+       [ -4.2052717 , -16.867092  ,  -4.3651786 , ...,  -5.9555163 ,
+         -4.35853   , -16.29322   ],
+       ...,
+       [  4.982389  ,  -6.8580647 ,   4.29233   , ...,   3.0482972 ,
+          6.1197047 ,  -3.8788004 ],
+       [  4.8964186 , -16.546843  ,   4.944297  , ...,   4.414834  ,
+          4.734501  , -11.530451  ],
+       [  1.8736234 , -23.772594  ,   1.9850262 , ...,   1.5198439 ,
+          1.6453369 , -11.308951  ]], dtype=float32), array([[24.445583, 24.260761, 24.428518, ..., 24.285511, 24.406635,
+        24.424858],
+       [23.821533, 23.941761, 23.912403, ..., 23.763962, 24.006466,
+        23.861702],
+       [24.383753, 24.217388, 24.31959 , ..., 24.44718 , 24.44084 ,
+        24.420893],
+       ...,
+       [24.429993, 24.235168, 24.254198, ..., 24.336714, 24.402935,
+        24.41332 ],
+       [24.473503, 24.413506, 24.235268, ..., 24.288612, 24.321701,
+        24.209328],
+       [23.986696, 23.786074, 23.743715, ..., 23.746925, 23.903364,
+        23.86864 ]], dtype=float32), array([[24.911089  , 24.9968    , 24.908785  , ..., 24.955141  ,
+        -0.12417571, 24.971342  ],
+       [25.002438  , 25.015348  , 25.03943   , ..., 25.03515   ,
+        -0.1304887 , 24.79997   ],
+       [24.803251  , 24.929373  , 25.079014  , ..., 24.915293  ,
+         0.08480966, 25.042307  ],
+       ...,
+       [24.951384  , 25.0032    , 24.950752  , ..., 25.021227  ,
+        -0.16760652, 24.997295  ],
+       [24.967648  , 25.006815  , 25.029417  , ..., 24.978569  ,
+        -0.11306056, 25.074629  ],
+       [24.94375   , 25.094147  , 25.051949  , ..., 24.886282  ,
+         0.15393877, 24.889277  ]], dtype=float32), array([[ 2.5283939e+01],
+       [ 2.5075169e+01],
+       [ 2.5092968e+01],
+       [-1.8837771e-01],
+       [ 2.5171366e+01],
+       [-1.8921769e-01],
+       [ 2.5262957e+01],
+       [-8.9577045e-03],
+       [ 2.5071764e+01],
+       [ 2.5188540e+01],
+       [-1.4565404e-01],
+       [ 2.5091312e+01],
+       [ 2.5189678e+01],
+       [ 2.5344538e+01],
+       [ 2.5310638e+01],
+       [-1.6129921e-01],
+       [ 2.5157516e+01],
+       [-1.7627136e+01],
+       [ 7.7084813e+00],
+       [-1.7434116e+01],
+       [-1.1847675e-01],
+       [-5.3073820e-02],
+       [-2.8011301e-01],
+       [-4.6219081e-02],
+       [ 2.5100424e+01],
+       [ 2.5285828e+01],
+       [-2.6546755e-01],
+       [ 2.5123373e+01],
+       [ 2.5133829e+01],
+       [-2.2656392e-01],
+       [-3.4157339e-02],
+       [ 2.5178373e+01],
+       [-2.2583240e-01],
+       [ 2.5177662e+01],
+       [ 2.5142996e+01],
+       [-1.8027338e-01],
+       [-7.9901367e-02],
+       [ 2.5293236e+01],
+       [-1.9726004e-01],
+       [ 2.5093180e+01],
+       [ 2.5051918e+01],
+       [ 2.5036602e+01],
+       [ 2.5211206e+01],
+       [-1.9021463e-01],
+       [-4.9605402e-03],
+       [-1.8113229e-01],
+       [ 2.5093203e+01],
+       [ 2.5152445e+01],
+       [ 2.4313873e-03],
+       [ 2.5178110e+01],
+       [ 2.5142662e+01],
+       [-3.1535521e-02],
+       [ 2.5265436e+01],
+       [ 2.5175655e+01],
+       [ 2.5338552e+01],
+       [ 2.5161230e+01],
+       [ 2.5270163e+01],
+       [ 2.5133379e+01],
+       [-6.5956190e-02],
+       [-2.0261145e-01],
+       [-1.7378460e-01],
+       [ 2.5286671e+01],
+       [-4.1933805e-02],
+       [ 2.5141319e+01]], dtype=float32)]
+Intercepts: [array([ 24.636986,  24.203442,  24.66451 ,  24.831923,  24.816801,
+        24.649733,  24.679985,  24.639997,  24.683907,  24.147638,
+        24.646223,  24.208027,  24.182878,  24.65075 ,  24.143408,
+        24.815207,  24.20024 ,  24.65925 ,  24.212145,  24.762455,
+        24.616777,  24.650547,  24.18507 ,  24.865139,  24.662683,
+        24.649689,  24.61641 ,  24.658167,  24.655066,  24.840544,
+        24.853914,  24.205044,  24.78843 ,  24.785124,  24.626049,
+        24.647951,  24.182917,  24.604124,  24.648405,  24.61388 ,
+        24.208908,  24.768148, -12.790421,  24.649162,  24.19449 ,
+        24.622744,  24.647354,  24.854969,  24.641575,  24.621042,
+        24.802786,  24.201574,  24.196   ,  24.638453,  24.658632,
+        24.614378,  24.544647,  24.177082,  24.211119,  24.644884,
+        24.69608 ,  24.18709 ,  24.206438,  24.589586,  24.874973,
+        24.6582  ,  24.655773,  24.212744,  24.648169,  24.874712,
+        24.8488  ,  24.856642,  24.163853,  24.657986,  24.652628,
+        24.598576,  24.652727,  24.771307,  24.623682,  24.617895,
+        24.645826,  24.574503,  24.655502,  24.189932,  24.643097,
+        24.793818,  24.647772,  24.655663,  24.643492,  24.646547,
+        24.877272,  24.175486,  24.652615,  24.804535,  24.193718,
+        24.66607 ,  24.173372,  24.829262,  24.860588,  24.863556,
+        24.221193, -12.768673,  24.210056,  24.219824,  24.883366,
+        24.648434,  24.635017,  24.633678,  24.861557,  24.620049,
+        24.635122,  24.20292 ,  24.644941,  24.567358,  24.665113,
+        24.852352,  24.623058,  24.589832,  24.83195 ,  24.199593,
+        24.827164,  24.206429,  24.20834 ,  24.586847,  24.630003,
+        24.590849,  24.643902,  24.200415,  24.651558,  24.650114,
+        24.686342,  24.648565,  24.652094,  24.753761,  24.701956,
+        24.854162,  24.863165,  24.657047,  24.208334,  24.027527,
+        24.663128,  24.192816,  24.641432,  24.815634,  24.655382,
+        24.85219 ,  24.200956,  24.166355,  24.569153,  24.65961 ,
+        24.858713,  24.206457,  24.15409 ,  24.773584,  24.662394,
+        24.183142,  24.20683 ,  24.858862,  24.209532, -12.793957,
+       -12.765649,  24.143255,  24.660301,  24.630365,  24.68019 ,
+        24.67776 ,  24.852724,  24.835266,  24.64721 ,  24.652391,
+        24.653696,  24.828438,  24.206741,  24.654844,  24.620419,
+        24.653269,  24.20782 ,  24.56214 ,  24.175259,  24.654615,
+        24.65055 ,  24.867647,  24.65741 ,  24.649498,  24.18998 ,
+        24.64822 ,  24.660343,  24.65692 ,  24.200197,  24.812035,
+        24.193546,  24.230421,  24.847633,  24.822695,  24.657179,
+        24.787214,  24.824467,  24.207981,  24.649227,  24.210522,
+        24.624063,  24.644596,  24.856705,  24.65782 ,  24.650017,
+        24.206398,  24.781832,  24.67006 ,  24.65534 ,  24.777027,
+        24.20639 ,  24.825422,  24.86838 ,  24.623299,  24.190104,
+        24.647593,  24.52    ,  24.777403,  24.618523,  24.59183 ,
+        24.651957,  24.154795,  24.179693,  24.209276,  24.645296,
+        24.646187,  24.647346,  24.74933 ,  24.64176 ,  24.647932,
+        24.647268,  24.191105,  24.18424 ,  24.651512,  24.863424,
+        24.654837,  24.212242,  24.206184,  24.598572,  24.749117,
+        24.204296,  24.207396,  24.64543 ,  24.647469,  24.546566,
+        24.658339,  24.65354 ,  24.646309,  24.208944,  24.855938,
+        24.639711,  24.647644,  24.646431,  24.629293,  24.796011,
+        24.19581 ], dtype=float32), array([23.312653 , 23.283203 , 23.30781  , 23.299208 , 23.297787 ,
+        3.6169693, 23.233788 , 23.29976  , 23.293726 , 23.301615 ,
+       23.275928 ,  3.619573 , 23.292614 , 23.287338 , 23.314915 ,
+       23.302492 , 23.295395 ,  3.8870919, 23.31626  , 23.303394 ,
+       23.298336 ,  3.6571708, 23.315    , 23.29892  , 23.305859 ,
+       23.309101 , 23.303686 , 23.298153 , 23.302696 , 23.277864 ,
+       23.318214 ,  3.6092286, 23.314322 , 23.298586 , 23.296724 ,
+       23.281887 , 23.295692 ,  3.7113087, 23.284653 , 23.320288 ,
+       23.310413 , 23.303873 , 22.88448  , 23.300343 , 23.291294 ,
+       23.297483 , 23.308441 , 23.31521  , 23.302515 ,  3.8857017,
+       23.29622  , 23.314953 , 23.28364  , 23.32192  , 23.297066 ,
+       23.286331 , 23.28742  , 23.316973 , 23.295225 , 23.29876  ,
+       23.294949 , 23.322443 , 23.316881 ,  3.755349 , 23.291986 ,
+       23.298069 , 23.310389 , 23.282352 , 23.306484 ,  3.6483507,
+        3.5971098, 23.305367 , 23.275434 , 23.280684 , 23.294262 ,
+        3.6903408, 23.279099 , 23.293955 ,  3.683394 , 23.305855 ,
+       23.30596  , 23.32426  , 23.301146 , 23.21866  , 23.284056 ,
+       23.302568 , 23.067564 , 23.312572 , 23.304497 , 23.286089 ,
+        3.596069 , 23.285173 , 23.294867 , 23.285707 ,  3.8064642,
+       23.296766 , 23.293467 , 23.29862  , 23.290081 , 22.913265 ,
+       23.278818 , 23.310722 , 23.301126 , 23.290565 , 23.304167 ,
+        3.7144115, 23.296438 ,  3.5360105, 23.309631 , 23.299707 ,
+       23.290457 ,  3.7370474, 23.282274 , 23.279013 , 22.215683 ,
+       23.057255 , 23.313528 , 23.315762 ,  3.7588406, 23.213562 ,
+       23.12665  , 23.08991  ,  3.6278882, 23.305922 , 23.295115 ,
+       23.291388 , 23.29057  , 23.286655 ], dtype=float32), array([ 2.09937325e+01,  2.11961727e+01,  2.11682167e+01, -8.42463784e-03,
+        2.10913544e+01, -1.14573501e-02,  2.10210590e+01, -1.03350645e-02,
+        2.12074127e+01,  2.10898685e+01, -2.43883710e-02,  2.11666756e+01,
+        2.10907326e+01,  2.09568291e+01,  2.10006771e+01, -5.63223427e-03,
+        2.11052361e+01,  1.85206568e+00,  8.31427383e+00,  2.02450418e+00,
+       -1.71670169e-02, -2.14150716e-02, -1.40458699e-02, -1.21651329e-01,
+        2.11615238e+01,  2.10012646e+01, -1.22168195e-02,  2.11560345e+01,
+        2.11284218e+01, -8.75238851e-02, -2.84756161e-02,  2.11024723e+01,
+       -1.26648834e-02,  2.10878716e+01,  2.11229343e+01, -3.10374033e-02,
+       -1.40314614e-02,  2.10085106e+01, -1.79553106e-02,  2.11749096e+01,
+        2.12172031e+01,  2.12462234e+01,  2.10636234e+01, -1.61535088e-02,
+       -1.41800698e-02, -1.34580331e-02,  2.11689262e+01,  2.11136341e+01,
+       -1.42210862e-02,  2.10871239e+01,  2.11250763e+01, -2.99378969e-02,
+        2.10050526e+01,  2.11009979e+01,  2.09577751e+01,  2.10987225e+01,
+        2.10249310e+01,  2.11299858e+01, -2.15310231e-02, -9.73274466e-03,
+       -1.68233681e-02,  2.09905739e+01, -1.24181295e-02,  2.11353912e+01],
+      dtype=float32), array([18.405878], dtype=float32)]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Function to Compute Hidden Layer Activations</strong></p>
+</div>
+<div class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_hidden_layer_activations(model, X, layer_index):</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Compute activations of a specified hidden layer.</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a><span class="co">        model: Trained MLP model.</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="co">        X: Input data, numpy array of shape (n_samples, n_features).</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="co">        layer_index: Index of the hidden layer.</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="co">        Activations of the specified hidden layer, numpy array of shape (n_samples, n_units_in_layer).</span></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> layer_index <span class="op">&lt;</span> <span class="dv">0</span> <span class="kw">or</span> layer_index <span class="op">&gt;=</span> <span class="bu">len</span>(coefs) <span class="op">-</span> <span class="dv">1</span>:</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">&quot;Invalid layer_index.&quot;</span>)</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Forward propagate through the network until the specified layer</span></span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>    activations <span class="op">=</span> X</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(layer_index <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a>        activations <span class="op">=</span> np.dot(activations, coefs[i]) <span class="op">+</span> intercepts[i]</span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i <span class="op">&lt;</span> <span class="bu">len</span>(coefs) <span class="op">-</span> <span class="dv">1</span>:</span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>            activations <span class="op">=</span> np.maximum(<span class="dv">0</span>, activations)</span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> activations</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Extracting Hidden Layer Activations from MLP
+Model</strong></p>
+</div>
+<div class="cell code" data-execution_count="63">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> load_model</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the pre-trained MLP model with a corrected file path</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>mlp <span class="op">=</span> load_model(<span class="vs">r&#39;C:\Users\raman\Algo_AI\path_to_my_model.h5&#39;</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the activations from the third hidden layer</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>embeddings <span class="op">=</span> get_hidden_layer_activations(mlp, x_test_scaled, <span class="dv">2</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Dimensionality Reduction with PCA and LDA</strong></p>
+<p>To visualize the embeddings effectively, we'll first reduce their
+dimensionality to 2D using PCA and LDA.</p>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.discriminant_analysis <span class="im">import</span> LinearDiscriminantAnalysis <span class="im">as</span> LDA</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># PCA</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>).fit_transform(embeddings)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a><span class="co"># LDA</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>lda <span class="op">=</span> LDA(n_components<span class="op">=</span><span class="dv">2</span>).fit_transform(embeddings, y_test)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Visualization of PCA and LDA</strong></p>
+</div>
+<div class="cell code" data-execution_count="72">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the type of y_test</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Type of y_test:&quot;</span>, <span class="bu">type</span>(y_test))</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the first few entries of y_test</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y_test head:&quot;</span>, y_test.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Type of y_test: &lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+y_test head:    0
+0  4
+1  2
+2  2
+3  2
+4  0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="73">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert y_test DataFrame column to a numpy array</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>label_array <span class="op">=</span> y_test.iloc[:, <span class="dv">0</span>].values</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="74">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.discriminant_analysis <span class="im">import</span> LinearDiscriminantAnalysis <span class="im">as</span> LDA</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply PCA</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>embeddings_pca <span class="op">=</span> pca.fit_transform(embeddings)</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply LDA</span></span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>lda <span class="op">=</span> LDA(n_components<span class="op">=</span><span class="dv">2</span>)  <span class="co"># n_components should be min(n_classes - 1, n_features)</span></span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>embeddings_lda <span class="op">=</span> lda.fit_transform(embeddings, y_test)  <span class="co"># y_test is needed as LDA is supervised</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\utils\validation.py:1184: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="75">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_embeddings(embeddings, labels, title):</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    unique_labels <span class="op">=</span> np.unique(labels)</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    colors <span class="op">=</span> plt.cm.get_cmap(<span class="st">&#39;tab10&#39;</span>, <span class="bu">len</span>(unique_labels))</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    markers <span class="op">=</span> [<span class="st">&#39;o&#39;</span>, <span class="st">&#39;s&#39;</span>, <span class="st">&#39;^&#39;</span>, <span class="st">&#39;P&#39;</span>, <span class="st">&#39;D&#39;</span>, <span class="st">&#39;*&#39;</span>, <span class="st">&#39;X&#39;</span>, <span class="st">&#39;&gt;&#39;</span>, <span class="st">&#39;&lt;&#39;</span>, <span class="st">&#39;v&#39;</span>]</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, label <span class="kw">in</span> <span class="bu">enumerate</span>(unique_labels):</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> labels <span class="op">==</span> label</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>        plt.scatter(embeddings[idx, <span class="dv">0</span>], embeddings[idx, <span class="dv">1</span>], color<span class="op">=</span>colors(i), marker<span class="op">=</span>markers[i <span class="op">%</span> <span class="bu">len</span>(markers)],</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>                    label<span class="op">=</span><span class="ss">f&#39;Label </span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">&#39;</span>, alpha<span class="op">=</span><span class="fl">0.6</span>, edgecolors<span class="op">=</span><span class="st">&#39;k&#39;</span>)</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>    plt.title(title)</span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Component 1&#39;</span>)</span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Component 2&#39;</span>)</span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a>    plt.legend()</span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot PCA and LDA embeddings</span></span>
+<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a>plot_embeddings(embeddings_pca, label_array, <span class="st">&#39;PCA of MLP Embeddings&#39;</span>)</span>
+<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a>plot_embeddings(embeddings_lda, label_array, <span class="st">&#39;LDA of MLP Embeddings&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\raman\AppData\Local\Temp\ipykernel_16932\2275666006.py:4: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  colors = plt.cm.get_cmap(&#39;tab10&#39;, len(unique_labels))
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/6c5a0b4d3777ec22a77e7565ab110800042a6121.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/d4dce866b613778c82003935e7a4b3c1e319ca56.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The plot_embeddings function generates a scatter plot to visualize
+the embeddings in 2D space. Each point in the plot represents an
+embedding vector, and its position is determined by the values of the
+two components (Component 1 and Component 2) obtained from
+dimensionality reduction techniques such as PCA and LDA.</p>
+<p><strong>Insights:</strong></p>
+<p><strong>Separation of Clusters:</strong> Look for clusters of points
+that are visually distinct from each other. In both PCA and LDA plots,
+observe if there's clear separation between different classes or
+groups.</p>
+<p><strong>Overlapping Classes:</strong> Check for overlapping points,
+especially in regions where multiple classes are represented.
+Overlapping points suggest similarity or ambiguity in the data.</p>
+<p><strong>Outliers:</strong> Identify any outlier points that are
+significantly distant from the main cluster. These outliers could
+represent anomalies or rare instances in the data.</p>
+<p><strong>Patterns and Structures:</strong> Look for any discernible
+patterns or structures in the data distribution. This could include
+linear separability, concentric circles, or any other interesting
+formations.</p>
+<p><strong>Effectiveness of Dimensionality Reduction:</strong> Compare
+the PCA and LDA plots to assess the effectiveness of each technique in
+preserving the discriminative information of the data. Note any
+differences in the visualization and how well they capture the
+underlying structure of the data.</p>
+</div>
+<section
+id="carry-out-k-means-on-the-generated-embeddings-with-5-clusters-and-visualize-the-results-by-using-the-resulting-clusters-as-alternate-colour-mappings-for-the-pca-plot-above"
+class="cell markdown">
+<h2>Carry out K-Means on the generated embeddings with 5 clusters and
+visualize the results by using the resulting clusters as alternate
+colour mappings for the PCA plot above.</h2>
+</section>
+<div class="cell code" data-execution_count="76">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform K-Means clustering</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">5</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>cluster_labels <span class="op">=</span> kmeans.fit_predict(embeddings_pca)  <span class="co"># Use PCA embeddings for clustering</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot PCA with cluster labels as colors</span></span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> label <span class="kw">in</span> np.unique(cluster_labels):</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>    plt.scatter(embeddings_pca[cluster_labels <span class="op">==</span> label, <span class="dv">0</span>], </span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>                embeddings_pca[cluster_labels <span class="op">==</span> label, <span class="dv">1</span>], </span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>                label<span class="op">=</span><span class="ss">f&#39;Cluster </span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">&#39;</span>, alpha<span class="op">=</span><span class="fl">0.6</span>)</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;K-Means Clustering on PCA Embeddings&#39;</span>)</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Component 1&#39;</span>)</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Component 2&#39;</span>)</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>c:\Users\raman\CSCN8010-main\venv\tensorflow_cpu\Lib\site-packages\sklearn\cluster\_kmeans.py:1412: FutureWarning: The default value of `n_init` will change from 10 to &#39;auto&#39; in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/37ecc55f345c55bce4a9df39af8e01ebaa9d69d1.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Insights</strong></p>
+<p><strong>Cluster Separation:</strong> The clusters appear to be
+well-separated in the PCA space, indicating that the K-Means algorithm
+successfully grouped similar data points together.</p>
+<p><strong>Cluster Distribution:</strong> Each cluster's distribution
+across the PCA components provides insight into the structure of the
+data. Clusters with dense concentrations suggest areas of high
+similarity among data points, while sparser regions indicate greater
+dissimilarity.</p>
+<p><strong>Cluster Patterns:</strong> Observing the patterns formed by
+the clusters may reveal underlying structures or relationships within
+the data. Patterns such as clusters forming distinct clusters or
+overlapping regions can provide insights into the data's characteristics
+and potential groupings.</p>
+<p><strong>Cluster Centroids:</strong> Analyzing the centroids of each
+cluster can provide information about the representative data points
+within each group. Understanding the characteristics of these centroids
+can help interpret the meaning or significance of each cluster.</p>
+</div>
+<section
+id="based-on-the-results-seen-in-the-plots-can-you-guess-what-are-the-labels-for-the-given-dataset-what-each-label-number-represents-in-terms-of-the-category-of-clothes"
+class="cell markdown">
+<h2>Based on the results seen in the plots, can you guess what are the
+labels for the given dataset (what each label number represents in terms
+of the category of clothes)?</h2>
+</section>
+<div class="cell markdown">
+<p>To guess the labels for the given dataset based on the cluster
+results, we can analyze the patterns observed in each cluster and
+compare them with the known categories of clothes in the Fashion MNIST
+dataset. By examining a random selection of data entries from each
+cluster and their associated label values, we can identify common
+features or characteristics that may correspond to specific types of
+clothing.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Here's how you can proceed:</strong></p>
+<p><strong>Reshape the images to (28, 28) and plot them using imshow()
+function in matplotlib.</strong></p>
+</div>
+<div class="cell code" data-execution_count="87">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_images_from_cluster(X, cluster_labels, cluster_number, n_images<span class="op">=</span><span class="dv">10</span>):</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Filter the images belonging to a specific cluster</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>    images_in_cluster <span class="op">=</span> X[cluster_labels <span class="op">==</span> cluster_number]</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Select n_images randomly from this cluster</span></span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>    random_indices <span class="op">=</span> np.random.choice(images_in_cluster.shape[<span class="dv">0</span>], n_images, replace<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>    images_to_plot <span class="op">=</span> images_in_cluster[random_indices]</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot the images</span></span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, n_images, figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">2</span>))</span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, ax <span class="kw">in</span> <span class="bu">enumerate</span>(axes.flat):</span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Reshape the image data correctly assuming the flattened image data is of size 784 (28x28)</span></span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a>        ax.imshow(images_to_plot[i].reshape(<span class="dv">28</span>, <span class="dv">28</span>), cmap<span class="op">=</span><span class="st">&#39;gray&#39;</span>)</span>
+<span id="cb47-14"><a href="#cb47-14" aria-hidden="true" tabindex="-1"></a>        ax.axis(<span class="st">&#39;off&#39;</span>)  <span class="co"># Hide the axes</span></span>
+<span id="cb47-15"><a href="#cb47-15" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb47-16"><a href="#cb47-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-17"><a href="#cb47-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming clusters is a numpy array with the cluster labels</span></span>
+<span id="cb47-18"><a href="#cb47-18" aria-hidden="true" tabindex="-1"></a><span class="co"># and x_test is a DataFrame or numpy array with each row as an image</span></span>
+<span id="cb47-19"><a href="#cb47-19" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> cluster_number <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):  <span class="co"># We have 5 clusters from K-Means</span></span>
+<span id="cb47-20"><a href="#cb47-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Visualizing Cluster </span><span class="sc">{</span>cluster_number<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb47-21"><a href="#cb47-21" aria-hidden="true" tabindex="-1"></a>    plot_images_from_cluster(x_test.values, cluster_labels, cluster_number)</span>
+<span id="cb47-22"><a href="#cb47-22" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Visualizing Cluster 0
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/eff21e77b87d0fcad1b97aa7bf8cfc7eca3f5f3d.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Visualizing Cluster 1
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/3c7bef004326f23ac24648bea91dd3f3cb3e9bfc.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Visualizing Cluster 2
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/0ed26264b8331984af046f8909fdb1b1bcb68c65.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Visualizing Cluster 3
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/f16f032ed2a82b20f9c512f5fed21546a25fbc54.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Visualizing Cluster 4
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_f1814e88b6ac4b09afd0f9c5e6eed931/716b792e92839518eef92c055f87f67f018abf89.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>The code snippet provided allows us to visualize a random
+selection of images from each cluster obtained through K-Means
+clustering. By plotting these images, we can gain insights into the
+characteristics of each cluster and potentially infer what types of
+clothing items they represent.</strong></p>
+<p>Here are some potential insights we can derive:</p>
+<p><strong>Cluster Patterns:</strong> We can observe if there are
+distinct patterns or similarities among the images within each cluster.
+For example, one cluster might predominantly contain images of shoes,
+while another might consist mainly of shirts or trousers.</p>
+<p><strong>Label Inference:</strong> By examining the plotted images
+alongside their cluster labels, we can make educated guesses about what
+each cluster represents in terms of clothing categories. For instance,
+if a cluster contains mostly images of footwear, we can infer that it
+likely corresponds to the "Shoes" category.</p>
+<p><strong>Data Quality:</strong> Visualizing the images allows us to
+assess the quality and variability of the data within each cluster. We
+can identify any anomalies or inconsistencies that may affect the
+clustering results.</p>
+<p><strong>Cluster Separation:</strong> We can evaluate how
+well-separated the clusters are in the feature space. If clusters
+overlap significantly or contain mixed types of clothing items, it may
+indicate limitations in the clustering algorithm or the need for further
+preprocessing.</p>
+<p><strong>Overall, visualizing the clustered images helps us better
+understand the underlying structure of the data and facilitates the
+interpretation of the clustering results in the context of the clothing
+dataset.</strong></p>
+</div>
+<section id="thank-you" class="cell markdown">
+<h2>Thank You</h2>
+</section>
+</body>
+</html>
